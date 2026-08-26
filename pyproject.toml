@@ -1,0 +1,12 @@
+[project]
+name = "wiki-citation-normalizer"
+version = "0.1.0"
+description = "Stateless normalization of MediaWiki citation wikitext"
+dependencies = ["mwparserfromhell>=0.6"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

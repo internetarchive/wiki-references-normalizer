@@ -1,0 +1,10 @@
+pyproject.toml
+src/citation_normalizer/__init__.py
+src/citation_normalizer/sanitize.py
+src/citation_normalizer/syntax.py
+src/wiki_citation_normalizer.egg-info/PKG-INFO
+src/wiki_citation_normalizer.egg-info/SOURCES.txt
+src/wiki_citation_normalizer.egg-info/dependency_links.txt
+src/wiki_citation_normalizer.egg-info/requires.txt
+src/wiki_citation_normalizer.egg-info/top_level.txt
+tests/test_syntax.py

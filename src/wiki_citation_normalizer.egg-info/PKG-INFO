@@ -1,0 +1,5 @@
+Metadata-Version: 2.4
+Name: wiki-citation-normalizer
+Version: 0.1.0
+Summary: Stateless normalization of MediaWiki citation wikitext
+Requires-Dist: mwparserfromhell>=0.6
