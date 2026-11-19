@@ -2,12 +2,12 @@
 
 Stateless normalization of MediaWiki citation wikitext.
 
-This standalone package (`citation_normalizer`) transforms raw wikitext reference strings into a consistent form so that two references with the same meaning but different formatting produce the same output. It is used by [wiki-references-db](../README.md) to deduplicate references before hashing and storage.
+This standalone package (`citation_normalizer`) transforms raw wikitext reference strings into a consistent form so that two references with the same meaning but different formatting produce the same output. It is used by [wiki-references-extractor](https://github.com/internetarchive/wiki-references-extractor) and [wiki-references-db](https://github.com/internetarchive/wiki-references-db) to deduplicate references before hashing and storage, and is intended to be reusable by any project that needs a canonical form of citation wikitext.
 
 ## Installation
 
 ```bash
-cd refs_normalizer
+cd wiki-references-normalizer
 pip install .
 ```
 
